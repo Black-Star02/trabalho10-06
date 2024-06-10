@@ -1,0 +1,415 @@
+@media (min-width: 361px) and (max-width: 480px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+ 
+    .imagemm {
+         width: 80px;
+         height: 80px;
+         left: 0;
+     }
+ 
+    .links {
+         font-size: 10px;
+         margin-left: 0;
+         padding-top: 10px;
+         width: 100%;
+         justify-content: center;
+         flex-wrap: wrap;
+     }
+ 
+    .linksr, .linksh, .linksc, .linkse, .linksm {
+        margin-left: 15px;
+        font-size: 18px;
+     }
+ 
+    .molde{
+        width: auto;
+        margin-left: 2px;
+     }
+ 
+    .slider {
+        margin-left: -15px;
+        width: auto;
+        height: auto;
+        box-shadow: none;
+     }
+ 
+    .slides{
+        margin-left: 0px;
+        width: -500%;
+        height: -500%;
+     }
+ 
+    .manual-navigation {
+        width: 90%;
+        margin-top: 360px;
+        margin-left: 13px;
+        
+     }
+ 
+    .manual-btn {
+        margin-top: 0;
+        margin-right: 10px;
+        /* padding: 5px 10px; */
+        
+     }
+ 
+    .navigation-auto {
+         
+         width: 90%;
+         margin-top: 360px;
+         left: -8px;
+     }
+ 
+    .navigation-auto div {
+         left: 0;
+         margin-right: 10px;
+     }
+ 
+    .perso {
+         flex-direction: column;
+         margin: 20px;
+         height: auto;
+     }
+ 
+    .nome {
+         margin: 20px 0;
+         width: auto;
+         height: auto;
+     }
+ 
+    #conteudo {
+         /* margin: 20px; */
+         position: relative;
+         right: 310px;
+         width: 100%;
+         
+     }
+ 
+    .robin{
+         text-decoration: none;
+         border:none;
+         background-color: rgb(255, 255, 255);
+         font-size: 18px;
+         /* margin-top: 90px; */
+     }
+     .ravena{
+         text-decoration: none;
+         border:none;
+         background-color: rgb(255, 255, 255);
+         font-size: 18px;
+         /* margin-top: 45px; */
+         margin-left: 4px;
+     }
+     .cyborg{
+         text-decoration: none;
+         border:none;
+         background-color: rgb(255, 255, 255);
+         font-size: 18px;
+         /* margin-top: 45px; */
+         margin-left: 4px;
+     }
+     .estelar{
+         text-decoration: none;
+         border:none;
+         background-color: rgb(255, 255, 255);
+         font-size: 18px;
+         /* margin-top: 45px; */
+         margin-left: 4px;
+     }
+     .mutano{
+         text-decoration: none;
+         border:none;
+         background-color: rgb(255, 255, 255);
+         font-size: 18px;
+         /* margin-top: 45px; */
+         margin-left: 4px;
+     }
+     #myimage{
+        width: 100%;
+        height: 300px;
+     }
+ }
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+
+    .imagemm {
+        width: auto;
+        height: 80px;
+        left: 0;
+    }
+
+    .links {
+        font-size: 10px;
+        margin-left: 0;
+        padding-top: 10px;
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .linksr, .linksh, .linksc, .linkse, .linksm {
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    .molde{
+        width: auto;
+        margin-left: 2px;
+    }
+
+    .slider {
+        margin-left: -15px;
+        width: 800px;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .slides{
+        margin-left: 0px;
+        width: -4000%;
+        height: -500%;
+    }
+
+    .manual-navigation {
+        width: 90%;
+        margin-top: 360px;
+        margin-left: 13px;
+    }
+
+    .manual-btn {
+        margin-top: 0;
+        margin-right: 10px;
+        /* padding: 5px 10px; */
+    }
+
+    .navigation-auto {
+        
+        width: 90%;
+        /* margin-top: 20px; */
+        left: 250px;
+    }
+
+    .navigation-auto div {
+        left: 0;
+        margin-right: 10px;
+    }
+
+    .perso {
+        flex-direction: column;
+        margin: 20px;
+        height: auto;
+    }
+
+    .nome {
+        margin: 20px 0;
+        width: auto;
+        height: auto;
+    }
+
+    #conteudo {
+        /* margin: 20px; */
+        position: relative;
+        right: 250px;
+        width: 600px;
+        font-size: 16px;
+    }
+
+    .robin{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 90px; */
+    }
+    .ravena{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 45px; */
+        margin-left: 4px;
+    }
+    .cyborg{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 45px; */
+        margin-left: 4px;
+    }
+    .estelar{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 45px; */
+        margin-left: 4px;
+    }
+    .mutano{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 45px; */
+        margin-left: 4px;
+    }
+    footer{
+        text-align: center;
+        padding-left: 150px;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+
+    .imagemm {
+        width: auto;
+        height: 80px;
+        left: 0;
+    }
+
+    .links {
+        font-size: 10px;
+        margin-left: 0;
+        padding-top: 10px;
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .linksr, .linksh, .linksc, .linkse, .linksm {
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    .molde{
+        width: auto;
+        height: auto;
+        margin-left: 50px;
+        align-items: center;
+        
+    }
+
+    .slider {
+        margin-left: auto;
+        width: 800px;
+        height: auto;
+        box-shadow: none;
+        
+    }
+
+    .slides{
+        
+        width: -100%;
+        height: -500%;
+        
+    }
+
+    .manual-navigation {
+        width: 90%;
+        margin-top: 450px;
+        margin-left: -100px;
+    }
+
+    .manual-btn {
+        margin-top: 0;
+        margin-right: 10px;
+        /* padding: 5px 10px; */
+    }
+
+    .navigation-auto {
+        
+        width: 90%;
+        margin-top: 450px;
+        left: 314px;
+    }
+
+    .navigation-auto div {
+        left: 0;
+        margin-right: 10px;
+    }
+
+    .perso {
+        flex-direction: column;
+        margin: 20px;
+        height: auto;
+    }
+
+    .nome {
+        margin: 20px 0;
+        width: auto;
+        height: auto;
+    }
+
+    #conteudo {
+        /* margin: 20px; */
+        position: relative;
+        right: 280px;
+        width: 900px;
+        font-size: 16px;
+    }
+
+    .robin{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 90px; */
+    }
+    .ravena{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 45px; */
+        margin-left: 4px;
+    }
+    .cyborg{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 45px; */
+        margin-left: 4px;
+    }
+    .estelar{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 45px; */
+        margin-left: 4px;
+    }
+    .mutano{
+        text-decoration: none;
+        border:none;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        /* margin-top: 45px; */
+        margin-left: 4px;
+    }
+    footer{
+        text-align: center;
+        padding-left: 190px;
+
+    }
+}

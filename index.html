@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responcivo.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link class="barrapfavorito" rel="icon" href="./img/Teen_Titans_-_logo.png">
+    <title>BuscaPets</title>
+    <title>Teen Titans</title>
+</head>
+<body>
+    <header>
+        <div class="imagemm"><img src="./img/Teen_Titans_-_logo.png" alt=""></div>
+        <div class="links">
+        <a class="linksr" href="">Episodeos</a>
+        <a class="linksh" href="">Dubladores</a>
+        <a class="linksc" href="">Personagens</a>
+        <a class="linkse" href="">Lugares</a>
+        <a class="linksm" href="">HQ</a>
+        </div>
+    </header>
+    <main>
+        <div class="molde">
+            <div class="slider">
+                <div class="slides">
+                    <!-- buttons -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+
+                    <!-- imagens -->
+                    <div class="slide first">
+                        <img src="/img/teen-titans.jpeg" alt="Imagem1">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/episodeo.jpeg" alt="Imagem2">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/outroepisodeo.jpeg" alt="Imagem3">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/torre.jpeg" alt="Imagem4">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/personagens.jpeg" alt="Imagem5">
+                    </div>
+                    <!-- navegaçao auto -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="perso">
+            <div class="nome">
+                
+                <button type="button" class="robin" onclick="document.getElementById('myimage').src='./img/robin.jpeg'">Robin</button>
+                <button type="button" class="ravena" onclick="document.getElementById('myimage').src='./img/ravena.jpeg'">Ravena</button>
+                <button type="button" class="cyborg" onclick="document.getElementById('myimage').src='./img/cyborg.jpeg'">Cyborg</button>
+                <button type="button" class="estelar" onclick="document.getElementById('myimage').src='./img/estelar.jpeg'">Estelar</button>
+                <button type="button" class="mutano" onclick="document.getElementById('myimage').src='./img/mutano.jpeg'">Mutano</button>
+             
+                
+            </div>
+            <div id="conteudo">
+                <img  id="myimage" src="./img/Teen_Titans_-_logo.png" alt="" style="height: 600px;">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li class="final">Episodeos</li>
+            <li class="final">Dubladores</li>
+            <li class="final">Personagens</li>
+            <li class="final">Lugares</li>
+            <li class="final">HQ</li>
+        </ul>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+   
+</html>
